@@ -1,0 +1,446 @@
+body {
+    font: 12px/20px "charis_silregular","Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-width: 998px;
+    height: 100%;
+    background: url(../images/ancient/bg.jpg) repeat 0 624px;
+    color: #66655f;
+    text-shadow: #f0efea 1px 1px 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 27px;
+        font-size:18pt;
+    font-weight:bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+#bg {
+    background: url(../images/ancient/bg-header.jpg) repeat-x 0 0;
+}
+
+#home-bg {
+    background: url(../images/ancient/home-head.jpg) repeat-x 0 0;
+}
+
+#head-bg {
+    background: url(../images/ancient/head.png) no-repeat center 0;
+}
+
+#home-bg.carous {
+    background: url(../images/ancient/home-head-carous.jpg) repeat-x 0 0;
+}
+
+#head-bgs {
+    background: url(../images/ancient/heads.png) no-repeat center 0;
+}
+
+#top-bg {
+    background: url(../images/origami/top-bg.png) repeat-x 0 0;
+    height: 34px;
+    z-index: 100;
+}
+
+.right-top a {
+    color: #878a8b;
+}
+
+form .i-s input {
+    color: #1c1c1c;
+    text-shadow: #fff 1px 1px 0;
+}
+
+#header {
+    min-height: 157px;
+    text-align: center;
+}
+
+.logo {
+    height: 91px;
+    position: relative;
+    cursor: pointer;
+    margin: 44px 0 0 0;
+    display: block;
+}
+
+ul#nav > li > a.act {
+    color: #7e7e7e;
+}
+
+#nav li div ul li a.act {
+    color: #7e7e7e;
+}
+
+#nav > li div ul li:hover > a {
+    color: #7e7e7e;
+}
+
+.soc-cont {
+    color: #000;
+    text-shadow: none;
+}
+
+#container.full-width .gallery {
+    background: url(../images/ancient/dote-line.png) no-repeat 0 top;
+}
+
+#container.full-width.ancient {
+    background: url("../images/ancient/dote-line.png") no-repeat 20px top;
+}
+
+#about {
+    width: 930px;
+    padding: 15px 9px 15px 20px;
+    margin: 60px auto 38px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.gallery .textwidget.one-fourth {
+    margin: 0px 19px 39px 0px;
+}
+
+.gallery .textwidget.one-third {
+    width: 303px;
+}
+
+.gallery .textwidget {
+    margin: 0 17px 18px 0;
+}
+
+.contact-block {
+    background-color: rgba(255,255,255,0.08);
+}
+
+.twit .reviews-t, #footer .flickr .alignleft-f, #footer .slider_container_1 {
+    background-color: rgba(255,255,255,0.08);
+}
+
+#aside .slider-wrapper, .half .slider-wrapper, .full .slider-wrapper, .two-thirds .slider-wrapper, .one-fourth .slider-wrapper, #aside .slider_container_1, .slider_container_1 {
+    background-color: rgba(0,0,0,0.08);
+}
+
+p.autor, p.autor a, .autor-twit, .autor-twit a {
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px 0 0px 0;
+    float: left;
+    color: #121212;
+    text-shadow: #f3f1ed 1px 1px 0;
+    text-decoration: none;
+}
+
+    p.autor a:hover, .autor-twit a:hover {
+        text-decoration: underline;
+    }
+
+.double-header.spread {
+    background: url("../images/ancient/dot-line-710.png") no-repeat 0 bottom;
+    padding: 0 0 22px 0;
+    margin: 0 0 8px 0;
+}
+
+.foot-cont p.autor, .foot-cont p.autor a, .foot-cont p.autor-twit, .foot-cont .autor-twit a {
+    color: #fff;
+    text-shadow: #141414 1px 1px 0;
+}
+
+.link {
+    color: #121212;
+    font-weight: bold;
+}
+
+.entry-meta .ico-link.comments {
+    text-shadow: #F7F6F3 1px 1px 0;
+}
+
+.entry-meta .ico-link {
+    color: #000;
+}
+
+.blue-date {
+    font-size: 10px;
+    color: #121212;
+    text-shadow: #f3f1ed 1px 1px 0;
+}
+
+#footer .blue-date {
+    color: #fff;
+    text-shadow: #000 1px 1px 0;
+}
+
+.button.act {
+    color: #7e7e7e;
+}
+
+.blockquote-bg {
+    text-shadow: #f0efea 1px 1px 0;
+}
+
+.double-header .first-head {
+    font-size: 27px;
+    float: left;
+    line-height: 40px;
+}
+
+#about, .textwidget-photo, .partner-bg, .alignleft, .alignright, .aligncenter, .shadow-light, .reviews-t, #aside .twit .reviews-t, .blockquote-bg, .navigation, .map, .navig-category, .slider-shprtcode, .toggle, .basic .accord, ul.nav-tab li, .list-wrap, .videos, .avatar img, .alignleft-f {
+    background-color: rgba(0,0,0,0.08);
+}
+
+.reviews-b {
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(0,0,0,0.08);
+    border-left: 0px solid transparent;
+}
+
+#footer .reviews-b {
+    border-left: 0 solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(255, 255, 255, 0.08);
+}
+
+.blockquote-bot {
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(0,0,0,0.08);
+    border-left: 0px solid transparent;
+}
+
+.entry-content, h1.caption, .about-autor, .related-post {
+    background: url(../images/ancient/dot-line.png) repeat-x 0 bottom;
+}
+
+    .entry-content.cont, #form-holder, .item-blog, .entry-meta {
+        background: url(../images/ancient/dot-line.png) repeat-x 0 top;
+    }
+
+    .entry-content.one-line, #comments .text {
+        background: url(../images/ancient/type-spread.png) repeat-x 0 bottom;
+    }
+
+.gallery {
+    background: url(../images/ancient/dot-line-710.png) no-repeat 0 top;
+}
+
+
+    .type-post, .post, ul.categories li, .custom-menu li, .gallery .textwidget.text {
+        background: url(../images/ancient/type-spread.png) repeat-x 0 top;
+    }
+
+.line-footer {
+    background: url("../images/ancient/line-foot.png") repeat-x 0 1px;
+    height: 8px;
+}
+
+#footer {
+    background: url("../images/ancient/footer_bg.jpg") repeat 0 0 #1D1D1D;
+    clear: both;
+}
+
+.foot-cont {
+    color: #878a8b;
+    text-shadow: #000 1px 1px 0;
+}
+
+#footer .post a {
+    color: #878a8b;
+    text-shadow: #000 1px 1px 0;
+    text-decoration: none;
+}
+
+#footer .goto-post span {
+    color: #fff;
+    text-shadow: #000 1px 1px 0;
+}
+
+.autor.twit a {
+    color: #121212;
+    text-shadow: #F0EFEA 1px 1px 0;
+}
+
+.do-clear {
+    color: #eaeaea;
+    text-shadow: #000 1px 1px 0;
+}
+
+#aside .do-clear {
+    color: #069DC0;
+    text-shadow: #fff 1px 1px 0;
+}
+
+#footer .post {
+    background: url(../images/ancient/dote-line-foot.png) repeat-x 0 0;
+}
+
+.bottom-cont span {
+    color: #878a8b;
+    text-shadow: #000 1px 1px 0;
+    float: left;
+}
+
+#bottom {
+    clear: both;
+    height: 60px;
+    background-color: rgba(255,255,255,0.08);
+}
+
+.logo-down {
+    float: left;
+    background: url(../images/ancient/logo-down.png) no-repeat 0 0;
+    width: 279px;
+    height: 15px;
+    margin: 10px 57px 0 60px;
+}
+
+.blue {
+    color: #121212;
+}
+
+#form-holder .do-clear {
+    color: #121212;
+    text-shadow: #fff 1px 1px 0;
+}
+
+.paginator li.act a {
+    color: #7e7e7e;
+}
+
+.navigation .paginator li.dotes {
+    background: url(../images/ancient/dotes.png) no-repeat 0 bottom;
+}
+
+#aside .reviews-t {
+    text-shadow: #f0efea 1px 1px 0;
+    color: #66655f;
+}
+
+.post a {
+    color: #64635b;
+    text-shadow: #fff 1px 1px 0;
+    text-decoration: none;
+}
+
+a {
+    color: #121212;
+}
+
+ul.categories li a, .custom-menu li a {
+    color: #66655f;
+}
+
+.goto-post span {
+    color: #121212;
+    font-size: 10px;
+}
+
+.text-capt {
+    background-color: rgba(252,252,252,0.7);
+    text-shadow: none;
+    font-size: 12px;
+    color: #333333;
+}
+
+ul.nav-tab li a.current, .price {
+    color: #121212;
+    text-shadow: #f3f1ed 1px 1px 0;
+}
+
+ul.nav-tab li:hover a.current {
+    text-decoration: none;
+}
+
+.basic a.selected, .toggle a.question.act strong {
+    color: #121212;
+}
+
+.widget-info .head, .widget-info .head-capt, .widget-info .details, .widget-info .hide-me {
+    color: #7e7e7e;
+    text-shadow: none;
+}
+
+.autor-head, .type-post a.comments, .type-post a.likes, .comment-meta a, .comment-meta span, .custom-menu li.act a {
+    color: #121212;
+}
+
+.head, .head-capt, .details {
+    color: #121212;
+    text-shadow: none;
+}
+
+.widget-info {
+    text-shadow: none;
+}
+
+.type-post a {
+    color: #121212;
+}
+/*#container.full-width {
+				background:url(../images/dote-line.png) no-repeat 20px 0
+			}*/
+#partners.full {
+    background: url(../images/ancient/dot-line.png) repeat-x 0 0;
+}
+
+#comments .children .children {
+    background: url("../images/ancient/comment-line-4.png") repeat-y 33px 0;
+    margin: 0;
+}
+
+#comments .level1, #comments .level2, #comments .level3, #comments .level4, #comments .level5 {
+    background-image: url("../images/ancient/comment-line-3.png");
+    background-repeat: no-repeat;
+}
+
+    #comments .level1.last, #comments .level2.last, #comments .level3.last, #comments .level4.last, #comments .level5.last {
+        background-image: url("../images/ancient/comment-line-5.png");
+    }
+
+    #comments .level1.nochildren, #comments .level2.nochildren, #comments .level3.nochildren, #comments .level4.nochildren {
+        background-image: url("../images/ancient/comment-line-6.png");
+    }
+
+    #comments .level1.nochildren {
+        background: none;
+    }
+
+    #comments .level1.last.nochildren, #comments .level2.last.nochildren, #comments .level3.last.nochildren, #comments .level4.last.nochildren, #comments .level5.last.nochildren {
+        background-image: url("../images/ancient/comment-line-7.png");
+    }
+
+.header {
+    font-size: 18px;
+}
+
+.full-left a {
+    color: #000000;
+}
+
+h1.caption {
+    margin: 0 0 28px 0;
+    padding: 0 0 22px 0;
+    width: 710px;
+}
+
+.toggle a, .basic a, ul.nav-tab li a {
+    color: #66655f;
+}

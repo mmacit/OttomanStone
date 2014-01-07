@@ -1,0 +1,88 @@
+#top-bg{
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+.contact-block {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+.twit .reviews-t, #footer .flickr .alignleft-f, #footer .slider_container_1 {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FFFFFF,endColorstr=#21FFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+#aside .slider-wrapper, .half .slider-wrapper, .full .slider-wrapper, .two-thirds .slider-wrapper, .one-fourth .slider-wrapper, #aside .slider_container_1, .slider_container_1 {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000,endColorstr=#14000000)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000,endColorstr=#14000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+#about, .textwidget-photo, .partner-bg, .alignleft, .alignright, .aligncenter, .shadow-light, .reviews-t, #aside .twit .reviews-t, .blockquote-bg, .navigation, .map, .navig-category, .slider-shprtcode, .toggle, .basic .accord, ul.nav-tab li, .list-wrap, .videos, .avatar img, .alignleft-f {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000,endColorstr=#14000000)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000,endColorstr=#14000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+.text-capt {
+	  *background: transparent;
+	  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FCFCFC,endColorstr=#B2FCFCFC)"; /* IE8 */
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FCFCFC,endColorstr=#B2FCFCFC);   /* IE6 & 7 */
+	  zoom: 1;
+}
+#bottom {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FCFCFC,endColorstr=#21FCFCFC)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#21FCFCFC,endColorstr=#21FCFCFC);   /* IE6 & 7 */
+	zoom: 1;
+}
+.ps-head {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);   /* IE6 & 7 */
+      zoom: 1;
+}
+.ps-cont {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FCFCFC,endColorstr=#B2FCFCFC)"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FCFCFC,endColorstr=#B2FCFCFC);   /* IE6 & 7 */
+      zoom: 1;
+}
+.SliderNameDescription{
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; /* IE8 */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);   /* IE6 & 7 */
+		  zoom: 1;
+}
+.slider-shprtcode .nivo-caption, .panel .html-caption, .one-fourth .nivo-caption, .half .nivo-caption, .two-thirds .nivo-caption, full .nivo-caption {
+	*background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; /* IE8 */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);   /* IE6 & 7 */
+		  zoom: 1;
+}
+ .caption-head {
+   *background: transparent;
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; /* IE8 */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+
+ a.alignleft i, a.photo i {
+	  background:url(../images/zoom-bg.png) no-repeat center center;  
+  }		   
+  a.alignleft.text i {
+	  background:url(../images/zoom-tex-bgt.png) no-repeat center center;
+  }
+  a.alignleft.photo i {
+	  background: url(../images/zoom-photo-bg.png) no-repeat center center;
+}
+  a.alignleft.video i {
+	  background:url(../images/zoom-video-bg.png) no-repeat center center;
+  }
+.gallery-inner{
+	float:left;
+}

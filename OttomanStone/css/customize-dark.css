@@ -1,0 +1,358 @@
+body {
+	font: 12px/20px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: url(../images/grunge/bg.jpg) repeat 0 0;
+	color:#939393;
+	text-shadow:#000000 1px 1px 0;
+	overflow-x:hidden;
+}
+	ul.categories li a, .custom-menu li a {
+		  color:#939393;
+	}
+	h1{
+		font-size: 33px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	h6{
+		font-size: 13px;
+	}
+	#bg {
+		background:url(../images/grunge/bg-header.png) no-repeat center 0;
+	}
+	#home-bg {
+		background:url(../images/grunge/home-head.png) no-repeat center 72px;
+	}
+	#home-bg.carous {
+		background:url(../images/grunge/home-head-carous.png) no-repeat center 70px;
+	}
+	.right-top a {
+		color:#878a8b;
+	}
+	form .i-s input {
+		color:#1c1c1c;
+		text-shadow:#fff 1px 1px 0;
+	}
+	#header {
+		min-height: 206px;
+	}
+		.logo{
+			height:100px;
+			position:relative;
+			cursor:pointer;
+			margin:39px 0 0 0;
+			display:block;
+			float:left;
+		}
+		ul#nav > li > a.act, #nav li div ul li a.act,  #nav > li div ul li:hover > a {
+			color:#920c2e;
+		}
+		.soc-cont {						
+			color:#000;
+			text-shadow:none;
+		}
+		#about {
+			width: 930px;
+			padding: 15px 9px 15px 20px;
+			margin: 0px auto 38px;
+			font-size: 14px;
+			font-weight:bold;
+			overflow:hidden
+		}
+		.double-header .first-head{
+			font-size:33px;
+			float:left;
+			line-height:40px;
+		}
+		.gallery .textwidget.one-fourth {
+			  margin:0px 20px 39px 0px;
+		  }
+	    .gallery .textwidget.one-third {
+		    width:304px;
+	    }
+		#container.full-width .gallery{
+			background:url(../images/grunge/dote-line.png) no-repeat 0 top;
+		}
+		.twit .reviews-t, #footer .flickr .alignleft-f, #footer .slider_container_1 {
+			background-color:rgba(0,0,0,0.13);
+		}
+		#top-bg{
+			 background-color:rgba(255,255,255,0.14);
+		}
+		.contact-block{
+			 background-color:rgba(255,255,255,0.14);
+		}
+		#about, .textwidget-photo, .partner-bg, .alignleft, .alignright, .aligncenter, .shadow-light, .reviews-t, #aside .twit .reviews-t, .blockquote-bg, .navigation, .map, .navig-category, .slider-shprtcode, .toggle, .basic .accord, ul.nav-tab li, .list-wrap, .videos, .avatar img, .alignleft-f, #aside .slider_container_1, .slider_container_1 {
+			 background-color:rgba(255,255,255,0.14);
+		}
+		#aside .slider-wrapper, .half .slider-wrapper, .full .slider-wrapper, .two-thirds .slider-wrapper, .one-fourth .slider-wrapper {
+			background-color:rgba(255,255,255,0.14);
+		}
+		p.autor, p.autor a{
+			font-weight:bold;
+			font-style:normal;
+			margin:0px 0 1px 0;
+			float:left;
+			color:#efefef;
+			text-decoration:none;
+		}
+		 p.autor a:hover {
+			 text-decoration:underline;
+		}
+		.foot-cont p.autor , .foot-cont p.autor a{
+			color:#797979;
+		}
+		.entry-meta .ico-link, .entry-meta .ico-link a {
+			color:#efefef;
+		}
+		.entry-meta .ico-link.comments {
+			text-shadow:1px 1px 0 #F7F6F3;
+			color:#1A1A1A;
+		}
+		.link {
+			color:#fff;
+			font-weight:bold;
+		}
+		.blue-date {
+			font-size:10px;
+			color:#fff;
+			text-shadow:#000 1px 1px 0;
+		}
+		#footer .blue-date {
+			color:#797979;
+			text-shadow:#fff 1px 1px 0;
+		}
+		.blockquote-bg {
+			text-shadow:#000 1px 1px 0;
+		}
+		.reviews-b {
+			border-right: 12px solid transparent;
+			border-top: 12px solid rgba(255,255,255,0.14);
+			border-left: 0px solid transparent;
+		
+		}
+		#footer .reviews-b {
+			border-right: 12px solid transparent;
+			border-top: 12px solid rgba(0,0,0,0.13);
+			border-left: 0px solid transparent;
+	
+		}
+		.blockquote-bot {
+			border-right: 12px solid transparent;
+			border-top: 12px solid rgba(255,255,255,0.14);
+			border-left: 0px solid transparent;
+		   
+		}
+		.entry-content, h1.caption, .about-autor, .related-post {		
+	    	background:url(../images/grunge/dot-line.png) repeat-x 0 bottom;
+		}
+		.entry-content.cont, #form-holder, .item-blog, .entry-meta {
+	    	background:url(../images/grunge/dot-line.png) repeat-x 0 top;
+		}
+		.entry-content.one-line, #comments .text {		
+			background:url(../images/grunge/type-spread.png) repeat-x 0 bottom;		
+		}
+		.gallery {
+			background:url(../images/grunge/dot-line-710.png) no-repeat 0 top;
+		}	
+		
+		.type-post, .post, ul.categories li, .custom-menu li, .gallery .textwidget.text {
+		    background:url(../images/grunge/type-spread.png) repeat-x 0 top;
+		}
+		.double-header.spread {
+			background:url("../images/grunge/dot-line-710.png") no-repeat 0 bottom;
+			padding:0 0 16px 0;
+			margin: 0 0 13px 0;
+		}
+		
+		
+		#aside .reviews-t {
+			text-shadow:#000 1px 1px 0;
+			color:#939393;
+		}
+		  .post a  {
+			  color:#939393;
+			  text-shadow:#000 1px 1px 0;
+			  text-decoration:none;
+		  }
+		  a {
+			  color:#939393;
+		  }
+		  .goto-post span {
+			  color:#fff;
+			  font-size:10px;
+		  }
+		  	  
+		  .text-capt {
+			    background-color:rgba(252,252,252,0.7);
+			    text-shadow:none;
+		  }	  
+		  
+			 ul.nav-tab li a.current, .basic a.selected, .toggle a.question.act strong{
+				 color:#fff;
+			}
+		  
+			.autor-head {
+				color:#fff;
+			}
+		   ul.nav-tab li:hover a.current {
+			   text-decoration:none;
+			}
+			.comment-meta a, .comment-meta span {
+				color:#fff;
+			}
+		  
+			.toggle a.question.act:hover strong {
+				text-decoration:underline;
+			}
+			.widget-info .head, .widget-info .head-capt, .widget-info .details, .widget-info .hide-me {
+				color:#920c2e;
+				text-shadow:none;
+			}
+			.head, .details, .head-capt {
+				color:#fff;
+				text-shadow:none;
+			}
+			.comment .head {
+				color:#fff;
+			}
+			
+			.widget-info {
+				text-shadow:none
+				
+			}
+			.type-post {
+				 text-shadow:#aeb4b5 1px 1px 0;
+			}
+			.type-post a.comments, .type-post a.likes {
+				color:#fff;
+			}		
+			.type-post a {
+				color:#939393;
+				text-shadow:#000 1px 1px 0;
+			}
+			.custom-menu li.act a {
+				color:#fff;
+			}
+			#container.full-width {
+				background:url(../images/grunge/dote-line.png) no-repeat 20px 0
+			}
+			#partners.full {	
+				background:url(../images/grunge/dote-line.png) no-repeat 0 0;
+			}
+			#comments .children .children {
+				background: url("../images/grunge/comment-line-4.png") repeat-y 33px 0;
+				margin:0;
+			}
+			#comments .level1, #comments .level2, #comments .level3, #comments .level4, #comments .level5 {
+				background-image: url("../images/grunge/comment-line-3.png");
+				background-repeat: no-repeat;
+			}
+			#comments .level1.last, #comments .level2.last, #comments .level3.last, #comments .level4.last, #comments .level5.last {
+				background-image: url("../images/grunge/comment-line-5.png");
+			}
+			 #comments .level1.nochildren, #comments .level2.nochildren, #comments .level3.nochildren, #comments .level4.nochildren {
+				background-image: url("../images/grunge/comment-line-6.png");
+			}
+			#comments .level1.nochildren {
+				background:none;
+			}
+			#comments .level1.last.nochildren, #comments .level2.last.nochildren, #comments .level3.last.nochildren, #comments .level4.last.nochildren, #comments .level5.last.nochildren {
+				background-image: url("../images/grunge/comment-line-7.png");
+			}
+	
+		
+		
+		.line-footer {
+			background: url("../images/grunge/line-foot.jpg") repeat-x 0 0;
+			height:6px;
+		}
+		#footer {
+			background: url("../images/grunge/footer_bg.jpg") repeat 0 0;
+			clear: both;
+		}
+			
+			.foot-cont{
+				color:#191919;
+				text-shadow:#fff 1px 1px 0;
+			}
+		
+					#footer .post a {
+						color:#191919;
+						text-shadow:#fff 1px 1px 0;
+						text-decoration:none;
+					}
+					#footer .goto-post span, .do-clear  {
+						  color:#797979;
+						  text-shadow:#ffffff 1px 1px 0;
+					}
+					#footer .post {
+						background:url(../images/grunge/dote-line-foot.png) repeat-x 0 0;
+					}
+		#bottom {
+			background-color:rgba(0,0,0,0.13);
+			clear: both;
+			height: 60px;
+		}
+			.bottom-cont span {
+				  color:#191919;
+				  text-shadow:#fff 1px 1px 0;
+			}
+				.logo-down {
+					  float:left;
+					  background:url(../images/grunge/logo-down.png) no-repeat 0 0;
+					  width:209px;
+					  height:28px;
+					  margin: 4px 0 0 0px;
+				  }
+				  .blue {
+					  color:#fff;
+				  }
+				  #form-holder .do-clear {
+					  color:#fff;
+					  text-shadow:#000 1px 1px 0;
+				  }
+				  .paginator li.act a{
+					  color:#920C2E;
+				  }
+				  .navigation .paginator li.dotes {
+					  background:url(../images/grunge/dotes.png) no-repeat 0 bottom;
+				  }
+				  .header {
+						font-size:20px;
+					}
+				  
+				a.button.act{
+					color:#920C2E;
+				}
+				.foot-cont .button span {
+					padding:3px 7px 2px 2px;
+				}
+					.foot-cont .button span i {
+						margin:0px 3px 0 0;
+					}
+				 .price{
+					color:#fff;
+				}
+				.full-left a {
+					color: #fff;
+					text-shadow: 1px 1px 0 #000;
+				}
+				a.button {
+					color:#1A1A1A;
+					text-shadow:#eee 1px 1px 0;
+				}
+		  		.toggle a, .basic a, ul.nav-tab li a {
+					  color:#939393
+				}

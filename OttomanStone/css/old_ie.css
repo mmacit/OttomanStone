@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+a.button {
+    padding:0px 4px 1px 4px;
+    margin:0px 2px 4px 0;
+}
+
+	.button span {
+		 display: inline;
+		 padding:3px 7px 6px 12px;
+	}
+
+		.button span i{
+		   position: absolute;
+		   left: 0px;
+		   top:0;
+		}
+a.button.middle {
+	padding:0px 7px 0px 7px;
+	height:33px;
+}
+    a.button.middle span {
+		padding:3px 23px 6px 20px;
+	}
+a.button.big {
+	height:43px;
+	padding:0px 9px 0px 9px;
+}
+
+    .button.big span {
+		padding:5px 23px 8px 20px;
+	}
+a.button.categ {
+	float:right;
+	margin:1px 0 2px 2px;
+}
+	a.button.categ span {
+		height:23px;
+		padding:1px 10px 0px 10px;
+		float:left;
+	}
+		a.button.categ span i {
+			top:2px;
+		}
+	
+.navigation .paginator li a.button {
+		margin:1px 0px 2px 0;
+		padding:0 4px 1px 4px;
+	}
+	.navigation .paginator li a.button span {
+		padding:3px 8px 6px 4px;
+	}
+.entry-content {
+	overflow:hidden;
+}
+	.map {
+		padding:5px 4px 5px;
+	}
+	.videos {
+		 padding:5px 0 5px 5px;
+	}
+.textwidget-photo {
+	display:inline;
+	zoom:1;
+	float:left;
+}
+.info.half {
+	display:inline;
+	zoom:1;
+	float:left;
+}
+#comments .children .children {
+	background:none;
+}
+ #comments .level2.last.nochildren {
+
+		background: none;
+	}
+#comments .comment {
+		background-position: -46px -129px;
+	}
+		#comments .level2 {
+			background-position: -20px -117px;
+		}
+			#comments .level3 {
+				background-position: 36px -119px;
+			}
+				#comments .level4 {
+					background-position: 36px -119px;
+				}
+					#comments .level5 {
+						background-position: 118px -120px;
+					}
+
+#comments .comment .text {
+	width:600px;
+}
+	#comments .level2 .text {
+			width: 530px;
+	}
+		#comments .level3 .text {
+			width: 444px;
+		}
+			#comments .level4 .text {
+				width: 365px;
+			}
+				#comments .level5 .text {
+					width: 287px;
+				}
+		#comments .level2 {
+		background: none repeat scroll 0 0;
+		padding-left: 81px;
+	}
+		#comments .level3 {
+			padding-left: 83px;
+		}
+			#comments .level4 {
+			   padding-left: 80px;
+			}
+				#comments .level5 {
+				   padding-left: 160px;
+				}

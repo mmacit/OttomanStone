@@ -1,0 +1,14 @@
+﻿<langs>
+  <tr>
+    <ik_dil az="Az" orta="Orta" iyi="İyi" yuksek="Çok İyi"></ik_dil>
+  </tr>
+  <en>
+    <ik_dil az="Low" orta="Middle" iyi="Good" yuksek="High"></ik_dil>
+  </en>
+  <fr>
+    <ik_dil az="Moins" orta="Moins" iyi="Bonne" yuksek="Trés Bonne"></ik_dil>
+  </fr>
+  <ru>
+    <ik_dil az="меньше" orta="среда" iyi="хорошо" yuksek="очень хорошо"></ik_dil>
+  </ru>  
+</langs>

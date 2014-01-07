@@ -1,0 +1,297 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ottoman.master.cs" Inherits="OttomanStone.Masterpage.ottoman" %>
+
+<%@ Register Src="~/Controls/Menu/Menu.ascx" TagPrefix="uc1" TagName="Menu" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ottoman Stone Amethyst / Ametist Siparişi Ver / Ametist Jeot Doğal Taşlar, amethyst ağaç, Amethyst geode, citrine geode, amethyst crystal necklace, ametist taş, ametist kolye, ametist küpe, ametist taşı fiyatı, ametist taşının faydaları, ametist taşının özellikleri, şifalı taşlar, değerli taşlar, ametist yüzük, amethyst nedir, ametist nedir, amethyst meaning, amethyst taşının özellikleri, amethyst taşı, fil dişi tesbihler, Esma-ül Hüsnalı tesbih</title>
+    <meta name="title" content="OTTOMAN STONE AMETHYST Doğal Taşlar / Burç Tşları / Şifalı Taşlar" />
+    <meta name="description" content="Ottoman Stone Amethyst (Ametist) Jeot / Yarı Değerli Doğal Taşlar sağlıklı taşlardandır ve insan üzerinde olan fayda ve yararları çok olduğundan şifalı taş olarakda bilinmektedir. Sitemizde daha çok jeot kristal ametsitler bulunmaktadır." />
+    <meta name="robots" content="Ottoman Stone Amethyst (Ametist) Jeot / Yarı Değerli Doğal Taşlar sağlıklı taşlardandır ve insan üzerinde olan fayda ve yararları çok olduğundan şifalı taş olarakda bilinmektedir. Sitemizde daha çok Ametist jeot ametsitler bulunmaktadır." />
+    <meta name="keywords" content="Ottoman Stone Amethyst Ametist Jeot Yarı Değerli Doğal Taşlar, amethyst ağaç, Amethyst geode, citrine geode, amethyst crystal necklace, ametist taş, ametist kolye, ametist küpe, ametist taşı fiyatı, ametist taşının faydaları, ametist taşının özellikleri, şifalı taşlar, değerli taşlar, ametist yüzük, amethyst nedir, ametist nedir, amethyst meaning, amethyst taşının özellikleri, amethyst taşı, fil dişi tesbihler, Esma-ül Hüsnalı tesbih" />
+    <meta property="og:description" content="Ottoman stone amethyst (Ametist) şifalı yarı değerli taşların kısaca tanıtımı yapılmaktadır. ürünler kısmında bulunan ametistleri sipariş edebilirsiniz." />
+    <meta name="author" content="Bedrettin Gör - website tasarım ve uygulama - bedrettingor@gmail.com" />
+    <meta http-equiv="content-language" content="tr" />
+    <meta name="revisit-after" content="7 days" />
+
+    <meta property="og:image" content="http://www.ottomanstone.com/images/ancient/logo.png" />
+    <meta property="og:site_name" content="Ottoman Stone Amethyst Doğal Taş / Burç Tşları / Şifalı Taşlar" />
+    <meta property="og:title" content="amethyst geode, ametist, doğal taş, şifalı taşlar, burç taşı, burçlara göre taşlar," />
+    <meta property="og:type" content="amethyst, natural, stones" />
+    <meta property="og:url" content="http://www.ottomanstone.com/urunler-1.html" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/extra.css" />
+    <link rel="stylesheet" href="/css/customize-ancient.css" />
+    <link rel="stylesheet" href="/css/slider.css" />
+    <link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="/css/anythingslider.css" />
+    <!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="all" href="/css/old_ie.css" /><![endif]-->
+    <!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="/css/ancient-ie8.css" />
+	<![endif]-->
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <%--    
+    <script src="/js/Charis_SIL_700.font.js"></script>--%>
+
+<%--    <script src="/js/cufon-yui.js"></script>
+    <script src="/js/cufon-colors-ancient.js"></script>--%>
+
+    <script type="text/javascript" src="/js/jquery.bxSlider.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.coda-slider-2.0.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-4.5.1.js"></script>
+    <script type="text/javascript" src="/js/plugins/highslide/highslide-full.js"></script>
+    <script type="text/javascript" src="/js/plugins/highslide/highslide.config.js"></script>
+    <link rel="stylesheet" type="text/css" href="/js/plugins/highslide/highslide.css" />
+    <script type="text/javascript" src="/js/jquery.jfancytile.js"></script>
+    <!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="/js/plugins/highslide/highslide-ie6.css" />
+	<![endif]-->
+    <script src="/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="/js/jquery.nivo.ext.js"></script>
+    <script type="text/javascript" src="/js/shortcodes.js"></script>
+    <script src="/js/jquery.anythingslider.js"></script>
+    <script src="/js/organictabs.jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.accordion.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript" src="/js/sliderman.1.3.6.js"></script>
+    <script>
+        // DO NOT REMOVE!
+        // b21add52a799de0d40073fd36f7d1f89
+        hs.graphicsDir = '/js/plugins/highslide/graphics/';
+    </script>
+
+    <link href="/css/extra.css" rel="stylesheet" />
+
+    <!--ANALİZ KODU BAŞ-->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32021434-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!--ANALİZ KODU SON-->
+
+
+    <!--google+ baş-->
+    <!-- Bu görüntüleme çağrısını uygun olan yere yerleştirin -->
+    <script type="text/javascript">
+        window.___gcfg = { lang: 'tr' };
+
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <!--google+ son-->
+    <!--twit baş-->
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+    <!--twit son-->
+    <!--face baş-->
+    <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/tr_TR/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--face bson-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="home-bg">
+            <div id="head-bg">
+                <div id="top-bg">
+                    <div class="top-cont">
+                        <div class="right-top">
+                            <a href="">Terms of use</a>
+                            <a href="">RSS</a>
+                            <a href="">Contact</a>
+                        </div>
+                        <div class="search-f">
+
+                            <div class="i-s">
+                                <input name="s" type="Search" class="i-search" value="Arama..." onblur="if(this.value==''){this.value='Arama...';}" onfocus="if(this.value=='Arama...'){this.value='';}" />
+                                <div class="i-l">
+                                    <span><a href="#" class="search" onclick="$('.c_search').submit(); return false;"></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <header id="header">
+                    <a class="logo" href="#">
+                        <img alt="" src="/images/ancient/logo.png" /></a>
+
+                    <nav>
+                        <ul id="nav">
+                            <li class="first"><a href="/">ANASAYFA</a>
+                                <uc1:Menu runat="server" ID="Menu" />
+                        </ul>
+                        <ul class="soc-ico">
+                            <li><a class="facebook trigger" href="#"><span>Bizi Facebook'ta Takip Edin</span></a></li>
+                            <li><a class="twitter trigger" href="#"><span>Bizi Twitter'da Takip Edin</span></a></li>
+                            <li><a class="youTube trigger" href="#"><span>Bizi YouTube'da Takip Edin</span></a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <!-- #header-->
+
+                <!-- #slider-->
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <!-- #container-->
+
+            </div>
+
+            <div class="line-footer"></div>
+            <footer id="footer">
+                <div class="light">
+                </div>
+                <div class="foot-cont">
+                    <div class="one-fourth">
+                        <div class="widget twit">
+                            <div class="header" style="color: #FFF;">
+                                Sağlığımıza
+                                Etkisi
+                            </div>
+                            <div class="reviews-t">
+                                <div class="coda-slider-wrapper arrows">
+                                    <div class="coda-nav" id="coda-nav-1" style="width: 206px;">
+                                        <ul style="width: 8px;">
+                                            <li class="tab1" style=""><a href="#1" class="current"></a></li>
+                                            <li class="tab2"><a href="#2"></a></li>
+                                            <li class="tab3"><a href="#3"></a></li>
+                                            <li class="tab4"><a href="#4"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="coda-nav-left" id="coda-nav-left-1"><a href="#"></a></div>
+                                    <div class="coda-slider" id="coda-slider-1" style="height: 90px;">
+                                        <div class="panel-container" style="width: 680px;">
+                                            <div class="panel" style="display: block;">
+                                                <div class="panel-wrapper">
+                                                    <p>Amethyst taşının şeytani, günahkar düşünceleri yok ettiği ve zekayı geliştirdiğini yazmıştır.</p>
+                                                </div>
+                                                <div class="panel-author" style="display: none;">Leonardo Da Vinci </div>
+                                            </div>
+                                            <div class="panel" style="display: block;">
+                                                <div class="panel-wrapper">
+                                                    <p>Stres, iştahsızlık, migren, göz ağrısı ve akciğer rahatsızlıklarına iyi gelir. Bağışıklık sistemini güçlü tutar. </p>
+                                                </div>
+                                                <div class="panel-author" style="display: none;">Ametist-Amethyst </div>
+                                            </div>
+                                            <div class="panel" style="display: block;">
+                                                <div class="panel-wrapper">
+                                                    <p>Pozitif enerji verdiğinden negatif enerjimizi boşaltarak huzurlu ve zinde olmamıza etkilidir. Pembe kuvars ile birlikte bulundurulduğunda aklı güçlendirir. Alkoliklere iyi gelir ve aynı zamanda kalbi korur. </p>
+                                                </div>
+                                                <div class="panel-author" style="display: none;">Ametist-Amethyst </div>
+                                            </div>
+                                            <div class="panel" style="display: block;">
+                                                <div class="panel-wrapper">
+                                                    <p>Pozitif enerjisi yüksek bir mineral taştır. Üzerinde taşıyan kişiye de pozitif enerjisini aktarır. Beyin fonksiyonlarının hızlı çalışmasında etkilidir. Kan temizleyici özelliği vardır.</p>
+                                                </div>
+                                                <div class="panel-author" style="display: none;">Ametist-Amethyst </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="coda-nav-right" id="coda-nav-right-1"><a href="#"></a></div>
+                                </div>
+                                <div class="reviews-b"></div>
+                            </div>
+                            <p class="autor" style="display: block;">Leonardo Da Vinci </p>
+                        </div>
+                    </div>
+                    <div class="one-fourth">
+                        <div class="widget">
+                            <div class="header" style="color: #FFF;">
+                                İletişim
+                            </div>
+                            <div class="post first">
+                                <a href="/iletisim">Ottoman Stone Mineral Doğal Taşlar Ametist-Amethyts Tanıtım &amp; Satış</a>
+                                <div class="goto-post"></div>
+                            </div>
+                            <div class="post">
+                                <p><a href="/iletisim">Yeniçeriler Cad. Bileyiciler Sok. No:19/C Mermerler Han </a><a href="/iletisim">Beyazıt</a> / <a href="/iletisim">Fatih/İSTANBUL</a><a href="/iletisim">/ TÜRKİYE</a></p>
+                                <div class="goto-post">
+                                    <span class="ico-link date">Sipariş Hattı 1: </span><span class="ico-link likes">+90542 407 79 78</span> <span class="ico-link date">Sipariş Hattı 2: </span><span class="ico-link likes">+90530 549 96 40</span>
+                                    <div class="goto-post"><span class="ico-link date">Telefon: </span><span class="ico-link likes">+90212 520 66 59</span></div>
+                                </div>
+                                <div class="goto-post"><span class="ico-link date">Destek Hattı: </span><span class="ico-link likes">+90530 549 96 40</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one-fourth">
+                        <div class="widget">
+                            <div class="header" style="color: #FFF;">
+                                Garanti 
+                                ve
+                                Sözleşme
+                            </div>
+                            <div class="garantikutusu">
+                                <ul>
+                                    <li>
+                                        <div class="post first"><a href="garanti-guvenlik-teslimat-sartlari.html" onclick="return false;">Güvenli Alışveriş</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="post first"><a href="garanti-guvenlik-teslimat-sartlari.html" onclick="return false;">Sipariş ve Teslimat</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="post first"><a href="garanti-guvenlik-teslimat-sartlari.html" onclick="return false;">Garanti</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="post first"><a href="garanti-guvenlik-teslimat-sartlari.html" onclick="return false;">Gizlilik</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one-fourth">
+                        <div class="widget">
+                            <div class="header" style="color: #FFF;">
+                                Özel 
+                                Tasarımlar
+                            </div>
+                            <span class="item-blog first"><a class="alignleft text" href="" onclick="return false;">
+                                <img alt="Ametist Taşı özel tasarımları - Special designs of Amethyst Stone" src="/images/ozel-ametist-tasarimlar.jpg" width="202" height="202"><i style="opacity: 0; width: 202px; height: 202px;"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom">
+                    <div class="fotir">
+                        <a href="/iletisim">
+                            <img alt=" " src="/images/kartlar.png"></a>
+                    </div>
+                    <div class="fotir">
+                        <a href="http://www.dogaltastr.com">
+                            <img alt="doğal taş türkiye" src="/images/dogaltas-tr.png"></a>
+                        <a href="http://www.dogaltasistanbul.net">
+                            <img alt=" doğal taş istanbul" src="/images/dogaltas-istanbul.png"></a>
+                        <a href="http://www.ottomanstone.com">
+                            <img alt=" doğal taş ottoman stone" src="/images/ottomanstone.png"></a><a href="#"><span class="tututu">© Copyright <%= DateTime.Now.Year %> - Doğal Taş Türkiye Mineral Doğal Taşlar - Ametist Tanıtım ve Satış  </span></a><a class="tututu" href=""><span>DogaltasTR.com</span></a>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- #footer -->
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,190 @@
+﻿.burc {
+    width: 955px;
+    margin: 0px auto;
+}
+
+#partners1 {
+    width: 966px;
+}
+
+#container {
+    width: 955px !important;
+    margin: 0px auto;
+}
+
+.about {
+    width: 955px;
+    margin: 0px auto;
+}
+
+#container.full-width #partners {
+    margin: 0px;
+}
+
+#container.full-width {
+    width: 1000px;
+    margin: 9px auto 3px;
+    padding: 37px 0 0 0;
+    float: none;
+}
+
+.gallery2 {
+    margin: 0 auto;
+    padding: 40px 0 0px 0;
+    width: 960px;
+    overflow: hidden;
+    position: relative !important;
+}
+
+.textwidget {
+    display: inline-block;
+    margin: 5px 0 13px 0px;
+    position: relative;
+    width: 240px;
+}
+
+#duvar {
+    padding: 0 0 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
+    vertical-align: top;
+    clear: both;
+    margin-top: 10px;
+}
+
+#bottom {
+    clear: both;
+    height: 170px;
+    background-color: rgba(255,255,255,0.08);
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 55px;
+}
+
+
+.fotir {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.entry {
+    width: 955px;
+    margin: 0px auto;
+    font-size: 11pt;
+}
+
+    .entry #container {
+        float: left;
+        width: 745px !important;
+    }
+
+    .entry #aside {
+        float: left;
+    }
+
+
+.gallery .textwidget.text.first {
+    background: none;
+    padding: 0;
+    margin: -5px 0 18px 0px;
+    width: 710px;
+}
+
+.textwidget-photo {
+    float: left;
+}
+
+.info.half, #container.full-width .info.half {
+    float: left;
+}
+
+a.yeni {
+    background: url("../images/yeni-bg.png")no-repeat 0 0px;
+    text-decoration: none;
+    height: 17px;
+    color: #fff;
+    font-size: 10px;
+    text-shadow: none;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+    width: auto;
+    text-align: center;
+    line-height: 13px;
+    padding: 2px 2px 0px 0;
+}
+
+.textwidget .widget-info .yeni {
+    right: 0px;
+    bottom: 3px;
+}
+
+.widget-info .yeni {
+    bottom: 4px;
+    right: 0px;
+}
+
+a.yeni span {
+    position: relative;
+    padding: 0 0 0 10px;
+    background: url(../images/ico-yeni.png) repeat-y 0 2px;
+    font-weight: bold;
+}
+
+
+
+
+a.satildi {
+    background: url("../images/satildi-bg.png")no-repeat 0 0px;
+    text-decoration: none;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-shadow: none;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+    width: auto;
+    text-align: center;
+    line-height: 13px;
+    padding: 2px 2px 0px 0;
+}
+
+.textwidget .widget-info .satildi {
+    right: 0px;
+    bottom: 3px;
+}
+
+.widget-info .satildi {
+    bottom: 4px;
+    right: 0px;
+}
+
+a.satildi span {
+    position: relative;
+    padding: 0 0 0 10px;
+    background: url(../images/ico-satildi.png) repeat-y 0 2px;
+    font-weight: bold;
+}
+
+a.buttonY {
+    color: #1a1a1a;
+    text-shadow: #eeeeee 1px 1px 0;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.buttonY span {
+    background: url("/images/button_yeniurun.png") no-repeat right 0px;
+    padding: 2px 7px 3px 2px;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+}
+
+.temizle {
+    clear:both;
+}
